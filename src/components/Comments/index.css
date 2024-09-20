@@ -1,0 +1,135 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    margin-top: 96px;
+    margin-left: 50px;
+  }
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1120px;
+  }
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 46px;
+  }
+}
+
+.say-something {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.input-type {
+  width: 90%;
+  max-width: 380px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-left: 12px;
+  outline: none;
+}
+
+.text-area {
+  width: 90%;
+  max-width: 380px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 12px;
+  font-family: 'Roboto';
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  font-weight: 400;
+  outline: none;
+}
+
+.image {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 350px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.add-comment-button {
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+}
+
+.separator {
+  width: 80%;
+  align-self: flex-start;
+  margin-left: 0;
+}
+
+.span-element {
+  background-color: #0284c7;
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.comment-count-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list-container {
+  padding: 0;
+  width: 80%;
+}
